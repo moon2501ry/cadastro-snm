@@ -1,0 +1,41 @@
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f0f0f0;
+}
+
+.container {
+	width: 400px;
+	margin: 50px auto;
+	padding: 20px;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#login-form {
+	margin-bottom: 20px;
+}
+
+#login-btn {
+	background-color: #4CAF50;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+#login-btn:hover {
+	background-color: #3e8e41;
+}
+
+#cadastro-table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+#cadastro-table th, #cadastro-table td {
+	border: 1px solid #ddd;
+	padding: 10px;
+}
